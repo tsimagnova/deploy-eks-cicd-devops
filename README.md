@@ -1,1 +1,1 @@
-# deploy-eks-cicd-devops
+# deploy-to-eks-using-github-actions
