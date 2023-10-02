@@ -1,9 +1,9 @@
 name: Node js app deploy to eks
 on: 
  push:
-   branches: [ " main" ]
+   branches: [main]
  pull_request:
-   branches: [ "main" ]
+   branches: [main]
 jobs:
   deploy:
     runs-on: ubuntu-latest
