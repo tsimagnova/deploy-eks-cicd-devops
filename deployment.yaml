@@ -15,7 +15,7 @@ spec:
         app: primuslearning
     spec:
       containers:
-        - name: primuslearning
+        - name: devopsambo
           image: 089250994305.dkr.ecr.us-east-2.amazonaws.com/devopsambo:1.1
           imagePullPolicy: Always
           ports:
