@@ -33,14 +33,14 @@ jobs:
     - name: Build, tag, and push docker image to Amazon ECR Public
       env:
           REGISTRY: ${{ steps.login-ecr-public.outputs.registry }}
-          REPOSITORY: my-ecr
+          REPOSITORY: devops
           IMAGE_TAG: 1.1
       run: |
           docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
           docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
 
     - name: Update kube config
-      run: aws eks update-kubeconfig --name my-ecr
+      run: aws eks update-kubeconfig --name devops
 
     - name: Deploy to EKS
       run: |
