@@ -43,6 +43,5 @@ jobs:
     - name: Deploy to EKS
       run: |
            kubectl delete pod --all
-           kubectl delete service tsimagnova
            kubectl apply -f deployment.yaml
            kubectl apply -f service.yaml
