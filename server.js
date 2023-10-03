@@ -19,7 +19,7 @@ const ENV = 'DEV';
 const app = express();
 app.get('/', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from from tsimagnova Learning, this was awesome';
+  const msg = 'Hello tsimagnova Learning, this was awesome';
   res.send(getPage(msg));
 });
 
