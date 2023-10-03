@@ -11,6 +11,7 @@ spec:
       app: primuslearning
   template:
     metadata:
+      name: tsimagnova
       labels:
         app: primuslearning
     spec:
