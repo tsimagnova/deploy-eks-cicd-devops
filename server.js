@@ -82,7 +82,7 @@ function getPage(message) {
     + "\n"
     + "<div class=\"bgimg\">\n"
     + "  <div class=\"topleft\">\n"
-    + "    <p>ENVIRONMENT: " + EN + "</p>\n"
+    + "    <p>ENVIRONMENT: " + ENV + "</p>\n"
     + "  </div>\n"
     + "  <div class=\"middle\">\n"
     + "    <h1>Host/container name</h1>\n"
